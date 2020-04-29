@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=450,maximum-scale=1.3,user-scalable=no">
+	<meta name="viewport" content="width=500,maximum-scale=2.0,user-scalable=no">
 	<link rel="icon" href="./image/001.ico" type="image/x-icon">
 	<title>Mr.yang</title>
 	<script src="js/jquery.min.js"></script>
@@ -82,7 +82,7 @@
 </head>
 <body>
 
-<%--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1406665350&auto=1&height=66">--%>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="//music.163.com/outchain/player?type=2&id=1406665350&auto=1&height=66&autoplay=true">
 </iframe>
 
 <div class="stars"></div>
@@ -91,12 +91,16 @@
 
 	<h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;她惊艳了时光</h2>
 	<div id="photo" style="background: url(image/1000141.jpg) no-repeat;background-size: 100%;opacity: 0.5;"></div>
+	<form action="/love.html" method="get">
+		<input type="submit" class="btn" value="我爱你"/>
+	</form>
+	<br/>
 	<form action="/getimage?method=getimage" method="post">
 		<input type="submit" class="btn" value="获取妹子"/>
 	</form>
 	<br/>
-	<form action="/love.html" method="get">
-		<input type="submit" class="btn" value="我爱你"/>
+	<form action="/time.html" method="get">
+		<input type="submit" class="btn" value="时钟轮盘"/>
 	</form>
 	<br/>
 	<form action="/element.html" method="get">
@@ -106,6 +110,10 @@
     <form action="/map.html" method="get">
         <input type="submit" class="btn" value="高中同学地图册"/>
     </form>
+	<br/>
+	<form action="/login.html" method="get">
+		<input type="submit" class="btn" value="秘密花园"/>
+	</form>
 </div>
 
 <script>

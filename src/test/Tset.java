@@ -9,12 +9,16 @@ public class Tset {
     public static void main(String[] args) {
         //Geturl.geturl();
         //test();
-        String s = "https://ww1.sinaimg.cn/large/610dc034ly1fjqw4n86lhj20u00u01kx.jpg";
-        System.out.println(s.substring(0,15));
-        System.out.println(s.substring(0,15).contains("ww"));
-        if (s.substring(0,15).contains("ww")){
-            System.out.println(222);
-        }
+//        String s = "https://ww1.sinaimg.cn/large/610dc034ly1fjqw4n86lhj20u00u01kx.jpg";
+//        System.out.println(s.substring(0,15));
+//        System.out.println(s.substring(0,15).contains("ww"));
+//        if (s.substring(0,15).contains("ww")){
+//            System.out.println(222);
+//        }
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.fluentPut("yang",123);
+        jsonObject.fluentPut("chen",2131);
+        System.out.println(jsonObject);
     }
 
     static void test(){
