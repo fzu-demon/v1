@@ -41,7 +41,6 @@ public  class PostUrl {
             in = new BufferedReader( new InputStreamReader(conn.getInputStream()));
             String line;
             while ((line = in.readLine()) != null) {
-                System.out.println(line);
                 result += line;
             }
         } catch (Exception e) {

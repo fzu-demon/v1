@@ -20,7 +20,6 @@ import java.util.List;
 public class GetImage extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println(1);
         String method = req.getParameter("method");
         switch (method){
             case "getimage":

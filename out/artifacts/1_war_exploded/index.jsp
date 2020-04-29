@@ -102,6 +102,10 @@
 	<form action="/element.html" method="get">
 		<input type="submit" class="btn" value="元素周期表"/>
 	</form>
+    <br/>
+    <form action="/map.html" method="get">
+        <input type="submit" class="btn" value="高中同学地图册"/>
+    </form>
 </div>
 
 <script>
